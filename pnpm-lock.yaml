@@ -34,10 +34,10 @@ importers:
         version: 3.1.8(hardhat@2.22.3)
       '@nomiclabs/hardhat-truffle5':
         specifier: ^2.0.7
-        version: 2.0.7(@nomiclabs/hardhat-web3@2.0.0)(hardhat@2.22.3)(web3-core-helpers@1.10.3)(web3-core-promievent@1.10.3)(web3-eth-abi@1.10.4)(web3-utils@1.10.4)(web3@1.10.4)
+        version: 2.0.7(@nomiclabs/hardhat-web3@2.0.1)(hardhat@2.22.3)(web3-core-helpers@1.10.3)(web3-core-promievent@1.10.3)(web3-eth-abi@1.10.4)(web3-utils@1.10.4)(web3@1.10.4)
       '@nomiclabs/hardhat-web3':
         specifier: ^2.0.0
-        version: 2.0.0(hardhat@2.22.3)(web3@1.10.4)
+        version: 2.0.1(hardhat@2.22.3)(web3@1.10.4)
       '@openzeppelin/contracts':
         specifier: ^4.9.3
         version: 4.9.6
@@ -5834,14 +5834,14 @@ packages:
       - supports-color
     dev: true
 
-  /@nomiclabs/hardhat-truffle5@2.0.7(@nomiclabs/hardhat-web3@2.0.0)(hardhat@2.22.3)(web3-core-helpers@1.10.3)(web3-core-promievent@1.10.3)(web3-eth-abi@1.10.4)(web3-utils@1.10.4)(web3@1.10.4):
+  /@nomiclabs/hardhat-truffle5@2.0.7(@nomiclabs/hardhat-web3@2.0.1)(hardhat@2.22.3)(web3-core-helpers@1.10.3)(web3-core-promievent@1.10.3)(web3-eth-abi@1.10.4)(web3-utils@1.10.4)(web3@1.10.4):
     resolution: {integrity: sha512-Pw8451IUZp1bTp0QqCHCYfCHs66sCnyxPcaorapu9mfOV9xnZsVaFdtutnhNEiXdiZwbed7LFKpRsde4BjFwig==}
     peerDependencies:
       '@nomiclabs/hardhat-web3': ^2.0.0
       hardhat: ^2.6.4
       web3: ^1.0.0-beta.36
     dependencies:
-      '@nomiclabs/hardhat-web3': 2.0.0(hardhat@2.22.3)(web3@1.10.4)
+      '@nomiclabs/hardhat-web3': 2.0.1(hardhat@2.22.3)(web3@1.10.4)
       '@nomiclabs/truffle-contract': 4.5.10(web3-core-helpers@1.10.3)(web3-core-promievent@1.10.3)(web3-eth-abi@1.10.4)(web3-utils@1.10.4)(web3@1.10.4)
       '@types/chai': 4.3.14
       chai: 4.4.1
@@ -5860,13 +5860,12 @@ packages:
       - web3-utils
     dev: true
 
-  /@nomiclabs/hardhat-web3@2.0.0(hardhat@2.22.3)(web3@1.10.4):
-    resolution: {integrity: sha512-zt4xN+D+fKl3wW2YlTX3k9APR3XZgPkxJYf36AcliJn3oujnKEVRZaHu0PhgLjO+gR+F/kiYayo9fgd2L8970Q==}
+  /@nomiclabs/hardhat-web3@2.0.1(hardhat@2.22.3)(web3@1.10.4):
+    resolution: {integrity: sha512-PfIiMUL5xWpkkt1Gvfb8qJ4DUtqU++rTh/B/80aONwTniSoT12YlXQukdZoHGlpD1IBEG9y4+0OULRnWz5ywLQ==}
     peerDependencies:
       hardhat: ^2.0.0
       web3: ^1.0.0-beta.36
     dependencies:
-      '@types/bignumber.js': 5.0.0
       hardhat: 2.22.3(ts-node@10.9.2)(typescript@5.5.4)
       web3: 1.10.4
     dev: true
@@ -8413,13 +8412,6 @@ packages:
     resolution: {integrity: sha512-r1bzfrm0tomOI8g1SzvCaQHo6Lcv6zu0EA+W2kHrt8dyrHQxGzBBL4kdkzIS+jBMV+EYcMAEAqXqYaLJq5rOZg==}
     dependencies:
       '@babel/types': 7.26.0
-
-  /@types/bignumber.js@5.0.0:
-    resolution: {integrity: sha512-0DH7aPGCClywOFaxxjE6UwpN2kQYe9LwuDQMv+zYA97j5GkOMo8e66LYT+a8JYU7jfmUFRZLa9KycxHDsKXJCA==}
-    deprecated: This is a stub types definition for bignumber.js (https://github.com/MikeMcl/bignumber.js/). bignumber.js provides its own type definitions, so you don't need @types/bignumber.js installed!
-    dependencies:
-      bignumber.js: 9.1.2
-    dev: true
 
   /@types/bn.js@4.11.6:
     resolution: {integrity: sha512-pqr857jrp2kPuO9uRjZ3PwnJTjoQy+fcdxvBTvHm6dkmEL9q+hDD/2j/0ELOBPtPnS8LjCX0gI9nbl8lVkadpg==}
