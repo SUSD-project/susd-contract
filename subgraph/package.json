@@ -5,7 +5,7 @@
     "codegen": "pnpm graph codegen"
   },
   "devDependencies": {
-    "@graphprotocol/graph-cli": "^0.80.1"
+    "@graphprotocol/graph-cli": "^0.91.0"
   },
   "dependencies": {
     "@graphprotocol/graph-ts": "^0.35.1",
