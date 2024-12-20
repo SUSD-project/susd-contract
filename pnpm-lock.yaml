@@ -106,13 +106,13 @@ importers:
         version: 15.1.0
       '@rainbow-me/rainbowkit':
         specifier: ^2.2.0
-        version: 2.2.1(@tanstack/react-query@5.62.7)(@types/react@18.3.18)(react-dom@18.3.1)(react@18.3.1)(viem@2.21.55)(wagmi@2.14.3)
+        version: 2.2.1(@tanstack/react-query@5.62.8)(@types/react@18.3.18)(react-dom@18.3.1)(react@18.3.1)(viem@2.21.55)(wagmi@2.14.3)
       '@react-spring/web':
         specifier: ^9.7.5
         version: 9.7.5(react-dom@18.3.1)(react@18.3.1)
       '@tanstack/react-query':
         specifier: ^5.59.16
-        version: 5.62.7(react@18.3.1)
+        version: 5.62.8(react@18.3.1)
       '@vercel/analytics':
         specifier: ^1.4.1
         version: 1.4.1(next@14.2.20)(react@18.3.1)
@@ -151,7 +151,7 @@ importers:
         version: 2.21.55(typescript@5.7.2)
       wagmi:
         specifier: ^2.12.25
-        version: 2.14.3(@tanstack/react-query@5.62.7)(@types/react@18.3.18)(react@18.3.1)(typescript@5.7.2)(viem@2.21.55)
+        version: 2.14.3(@tanstack/react-query@5.62.8)(@types/react@18.3.18)(react@18.3.1)(typescript@5.7.2)(viem@2.21.55)
     devDependencies:
       '@babel/plugin-transform-private-methods':
         specifier: ^7.25.9
@@ -5291,7 +5291,7 @@ packages:
     resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==}
     dev: false
 
-  /@rainbow-me/rainbowkit@2.2.1(@tanstack/react-query@5.62.7)(@types/react@18.3.18)(react-dom@18.3.1)(react@18.3.1)(viem@2.21.55)(wagmi@2.14.3):
+  /@rainbow-me/rainbowkit@2.2.1(@tanstack/react-query@5.62.8)(@types/react@18.3.18)(react-dom@18.3.1)(react@18.3.1)(viem@2.21.55)(wagmi@2.14.3):
     resolution: {integrity: sha512-DvWbczNmm3BRr+EPZFwDK2vJRYxzSgHL0XzasL4RGMPsPuuRe9meLiTrznPqJvut7yNmib/ROqtblWJuxBvIKA==}
     engines: {node: '>=12.4'}
     peerDependencies:
@@ -5301,7 +5301,7 @@ packages:
       viem: 2.x
       wagmi: ^2.9.0
     dependencies:
-      '@tanstack/react-query': 5.62.7(react@18.3.1)
+      '@tanstack/react-query': 5.62.8(react@18.3.1)
       '@vanilla-extract/css': 1.15.5
       '@vanilla-extract/dynamic': 2.1.2
       '@vanilla-extract/sprinkles': 1.6.3(@vanilla-extract/css@1.15.5)
@@ -5312,7 +5312,7 @@ packages:
       react-remove-scroll: 2.6.0(@types/react@18.3.18)(react@18.3.1)
       ua-parser-js: 1.0.39
       viem: 2.21.55(typescript@5.7.2)
-      wagmi: 2.14.3(@tanstack/react-query@5.62.7)(@types/react@18.3.18)(react@18.3.1)(typescript@5.7.2)(viem@2.21.55)
+      wagmi: 2.14.3(@tanstack/react-query@5.62.8)(@types/react@18.3.18)(react@18.3.1)(typescript@5.7.2)(viem@2.21.55)
     transitivePeerDependencies:
       - '@types/react'
       - babel-plugin-macros
@@ -6177,16 +6177,16 @@ packages:
       defer-to-connect: 2.0.1
     dev: true
 
-  /@tanstack/query-core@5.62.7:
-    resolution: {integrity: sha512-fgpfmwatsrUal6V+8EC2cxZIQVl9xvL7qYa03gsdsCy985UTUlS4N+/3hCzwR0PclYDqisca2AqR1BVgJGpUDA==}
+  /@tanstack/query-core@5.62.8:
+    resolution: {integrity: sha512-4fV31vDsUyvNGrKIOUNPrZztoyL187bThnoQOvAXEVlZbSiuPONpfx53634MKKdvsDir5NyOGm80ShFaoHS/mw==}
     dev: false
 
-  /@tanstack/react-query@5.62.7(react@18.3.1):
-    resolution: {integrity: sha512-+xCtP4UAFDTlRTYyEjLx0sRtWyr5GIk7TZjZwBu4YaNahi3Rt2oMyRqfpfVrtwsqY2sayP4iXVCwmC+ZqqFmuw==}
+  /@tanstack/react-query@5.62.8(react@18.3.1):
+    resolution: {integrity: sha512-8TUstKxF/fysHonZsWg/hnlDVgasTdHx6Q+f1/s/oPKJBJbKUWPZEHwLTMOZgrZuroLMiqYKJ9w69Abm8mWP0Q==}
     peerDependencies:
       react: ^18 || ^19
     dependencies:
-      '@tanstack/query-core': 5.62.7
+      '@tanstack/query-core': 5.62.8
       react: 18.3.1
     dev: false
 
@@ -18803,7 +18803,7 @@ packages:
     dependencies:
       xml-name-validator: 5.0.0
 
-  /wagmi@2.14.3(@tanstack/react-query@5.62.7)(@types/react@18.3.18)(react@18.3.1)(typescript@5.7.2)(viem@2.21.55):
+  /wagmi@2.14.3(@tanstack/react-query@5.62.8)(@types/react@18.3.18)(react@18.3.1)(typescript@5.7.2)(viem@2.21.55):
     resolution: {integrity: sha512-sr8o7+EBw22GhieDyXLv8Zr2vgC6xKrYoSuUIpq0xOqEhvMP1q880VtR4lFG1capc2QEWvK72pJ/+jpsEQcMYQ==}
     peerDependencies:
       '@tanstack/react-query': '>=5.0.0'
@@ -18814,7 +18814,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@tanstack/react-query': 5.62.7(react@18.3.1)
+      '@tanstack/react-query': 5.62.8(react@18.3.1)
       '@wagmi/connectors': 5.7.0(@types/react@18.3.18)(@wagmi/core@2.16.0)(react@18.3.1)(typescript@5.7.2)(viem@2.21.55)
       '@wagmi/core': 2.16.0(@types/react@18.3.18)(react@18.3.1)(typescript@5.7.2)(use-sync-external-store@1.2.0)(viem@2.21.55)
       react: 18.3.1
