@@ -1,4 +1,4 @@
-# Liquity V2
+# SUSD Contract 💵
 
 ## Table of Contents
 1. [Significant Changes in Liquity v2](#significant-changes-in-liquity-v2)
