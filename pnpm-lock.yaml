@@ -318,8 +318,8 @@ importers:
         specifier: ^0.49.0
         version: 0.49.0(jsdom@25.0.1)(typescript@5.7.2)
       '@types/node':
-        specifier: ^20.12.7
-        version: 20.17.10
+        specifier: ^22.0.0
+        version: 22.10.2
       '@types/react':
         specifier: ^18.3.12
         version: 18.3.18
@@ -6331,12 +6331,6 @@ packages:
 
   /@types/node@17.0.45:
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
-
-  /@types/node@20.17.10:
-    resolution: {integrity: sha512-/jrvh5h6NXhEauFFexRin69nA0uHJ5gwk4iDivp/DeoEua3uwCUto6PC86IpRITBOs4+6i2I56K5x5b6WYGXHA==}
-    dependencies:
-      undici-types: 6.19.8
-    dev: true
 
   /@types/node@22.10.2:
     resolution: {integrity: sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==}
