@@ -118,7 +118,7 @@ importers:
         version: 1.4.1(next@14.2.21)(react@18.3.1)
       '@wagmi/core':
         specifier: ^2.14.1
-        version: 2.16.0(@types/react@18.3.18)(react@18.3.1)(typescript@5.7.2)(viem@2.21.56)
+        version: 2.16.1(@types/react@18.3.18)(react@18.3.1)(typescript@5.7.2)(use-sync-external-store@1.2.0)(viem@2.21.56)
       blo:
         specifier: ^1.2.0
         version: 1.2.0
@@ -7218,30 +7218,6 @@ packages:
       - uploadthing
       - utf-8-validate
       - zod
-    dev: false
-
-  /@wagmi/core@2.16.0(@types/react@18.3.18)(react@18.3.1)(typescript@5.7.2)(viem@2.21.56):
-    resolution: {integrity: sha512-sy4n7Jv6YCbT2jp4zQ/9H6l0A8StsN7P8mm2BRuODgW2w6Fj4j6h2xgYJD2tIjJHkLU/nvPJ7audZ55X7XQU/g==}
-    peerDependencies:
-      '@tanstack/query-core': '>=5.0.0'
-      typescript: '>=5.0.4'
-      viem: 2.x
-    peerDependenciesMeta:
-      '@tanstack/query-core':
-        optional: true
-      typescript:
-        optional: true
-    dependencies:
-      eventemitter3: 5.0.1
-      mipd: 0.0.7(typescript@5.7.2)
-      typescript: 5.7.2
-      viem: 2.21.56(typescript@5.7.2)
-      zustand: 5.0.0(@types/react@18.3.18)(react@18.3.1)(use-sync-external-store@1.2.0)
-    transitivePeerDependencies:
-      - '@types/react'
-      - immer
-      - react
-      - use-sync-external-store
     dev: false
 
   /@wagmi/core@2.16.1(@types/react@18.3.18)(react@18.3.1)(typescript@5.7.2)(use-sync-external-store@1.2.0)(viem@2.21.56):
