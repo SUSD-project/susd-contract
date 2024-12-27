@@ -91,7 +91,7 @@ importers:
         version: 3.24.1
       zx:
         specifier: ^8.1.9
-        version: 8.2.4
+        version: 8.3.0
 
   frontend/app:
     dependencies:
@@ -209,7 +209,7 @@ importers:
         version: 2.1.8(@types/node@22.10.2)(jsdom@25.0.1)
       zx:
         specifier: ^8.1.9
-        version: 8.2.4
+        version: 8.3.0
 
   frontend/uikit:
     dependencies:
@@ -279,7 +279,7 @@ importers:
         version: 4.4.0(typescript@5.7.2)(vite@6.0.6)
       zx:
         specifier: ^8.1.9
-        version: 8.2.4
+        version: 8.3.0
 
   frontend/uikit-gallery:
     dependencies:
@@ -352,7 +352,7 @@ importers:
         version: 4.19.2
       zx:
         specifier: ^8.1.9
-        version: 8.2.4
+        version: 8.3.0
     devDependencies:
       '@graphprotocol/graph-cli':
         specifier: ^0.93.0
@@ -2514,7 +2514,7 @@ packages:
       assemblyscript: 0.19.23
       binary-install: 1.1.0(debug@4.3.7)
       chokidar: 4.0.1
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
       docker-compose: 1.1.0
       fs-extra: 11.2.0
       glob: 11.0.0
@@ -4626,7 +4626,7 @@ packages:
       ansis: 3.4.0
       clean-stack: 3.0.1
       cli-spinners: 2.9.2
-      debug: 4.4.0(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@8.1.1)
       ejs: 3.1.10
       get-package-type: 0.1.0
       globby: 11.1.0
@@ -5126,7 +5126,7 @@ packages:
       async: 3.2.6
       chalk: 3.0.0
       dayjs: 1.8.36
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
       eventemitter2: 5.0.1
       fast-json-patch: 3.1.1
       fclone: 1.0.11
@@ -5147,7 +5147,7 @@ packages:
     engines: {node: '>=6.0'}
     dependencies:
       async: 2.6.4
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
       eventemitter2: 6.4.9
       require-in-the-middle: 5.2.0
       semver: 7.5.4
@@ -5163,7 +5163,7 @@ packages:
     engines: {node: '>=4.0'}
     dependencies:
       async: 2.6.4
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
       eventemitter2: 6.4.9
       extrareqp2: 1.0.0(debug@4.3.7)
       ws: 7.5.10
@@ -9508,7 +9508,7 @@ packages:
       ms: 2.1.3
     dev: true
 
-  /debug@4.3.7:
+  /debug@4.3.7(supports-color@8.1.1):
     resolution: {integrity: sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==}
     engines: {node: '>=6.0'}
     peerDependencies:
@@ -9518,6 +9518,7 @@ packages:
         optional: true
     dependencies:
       ms: 2.1.3
+      supports-color: 8.1.1
 
   /debug@4.4.0(supports-color@8.1.1):
     resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
@@ -9989,7 +9990,7 @@ packages:
     resolution: {integrity: sha512-TAr+NKeoVTjEVW8P3iHguO1LO6RlUz9O5Y8o7EY0fU+gY1NYqas7NN3slpFtbXEsLMHk0h90fJMfKjRkQ0qUIw==}
     dependencies:
       '@socket.io/component-emitter': 3.1.2
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
       engine.io-parser: 5.2.3
       ws: 8.17.1
       xmlhttprequest-ssl: 2.1.2
@@ -11365,7 +11366,7 @@ packages:
       debug:
         optional: true
     dependencies:
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
     dev: true
 
   /follow-redirects@1.15.9(debug@4.4.0):
@@ -16775,7 +16776,7 @@ packages:
     engines: {node: '>=10.0.0'}
     dependencies:
       '@socket.io/component-emitter': 3.1.2
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
       engine.io-client: 6.6.2
       socket.io-parser: 4.2.4
     transitivePeerDependencies:
@@ -16789,7 +16790,7 @@ packages:
     engines: {node: '>=10.0.0'}
     dependencies:
       '@socket.io/component-emitter': 3.1.2
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -19797,8 +19798,8 @@ packages:
       use-sync-external-store: 1.2.0(react@18.3.1)
     dev: false
 
-  /zx@8.2.4:
-    resolution: {integrity: sha512-g9wVU+5+M+zVen/3IyAZfsZFmeqb6vDfjqFggakviz5uLK7OAejOirX+jeTOkyvAh/OYRlCgw+SdqzN7F61QVQ==}
+  /zx@8.3.0:
+    resolution: {integrity: sha512-L8mY3yfJwo3a8ZDD6f9jZzAcRWJZYcV8GauZmBxLB/aSTwaMzMIEVpPp2Kyx+7yF0gdvuxKnMxAZRft9UCawiw==}
     engines: {node: '>= 12.17.0'}
     hasBin: true
     optionalDependencies:
