@@ -57,7 +57,7 @@
   },
   "dependencies": {
     "@floating-ui/react-dom": "^2.1.2",
-    "focus-trap-react": "^10.3.0"
+    "focus-trap-react": "^11.0.0"
   },
   "devDependencies": {
     "@svgr/core": "^8.1.0",
