@@ -318,8 +318,8 @@ importers:
         specifier: ^0.51.0
         version: 0.51.0(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.7.2)
       '@types/node':
-        specifier: ^20.12.7
-        version: 20.17.12
+        specifier: ^22.0.0
+        version: 22.10.5
       '@types/react':
         specifier: ^18.3.12
         version: 18.3.18
@@ -3378,9 +3378,6 @@ packages:
 
   '@types/node@17.0.45':
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
-
-  '@types/node@20.17.12':
-    resolution: {integrity: sha512-vo/wmBgMIiEA23A/knMfn/cf37VnuF52nZh5ZoW0GWt4e4sxNquibrMRJ7UQsA06+MBx9r/H1jsI9grYjQCQlw==}
 
   '@types/node@22.10.2':
     resolution: {integrity: sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==}
@@ -13792,7 +13789,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 12.20.55
+      '@types/node': 22.10.5
       '@types/responselike': 1.0.3
 
   '@types/chai-as-promised@7.1.8':
@@ -13807,7 +13804,7 @@ snapshots:
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 22.10.5
 
   '@types/debug@4.1.12':
     dependencies:
@@ -13824,7 +13821,7 @@ snapshots:
   '@types/fs-extra@11.0.4':
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 22.10.2
+      '@types/node': 22.10.5
     optional: true
 
   '@types/glob@7.2.0':
@@ -13836,7 +13833,7 @@ snapshots:
 
   '@types/http-proxy@1.17.15':
     dependencies:
-      '@types/node': 20.17.12
+      '@types/node': 22.10.5
 
   '@types/js-yaml@4.0.9': {}
 
@@ -13844,12 +13841,12 @@ snapshots:
 
   '@types/jsonfile@6.1.4':
     dependencies:
-      '@types/node': 22.10.2
+      '@types/node': 22.10.5
     optional: true
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 22.10.5
 
   '@types/lru-cache@5.1.1': {}
 
@@ -13862,10 +13859,6 @@ snapshots:
   '@types/node@12.20.55': {}
 
   '@types/node@17.0.45': {}
-
-  '@types/node@20.17.12':
-    dependencies:
-      undici-types: 6.19.8
 
   '@types/node@22.10.2':
     dependencies:
@@ -13901,7 +13894,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 22.10.5
 
   '@types/secp256k1@4.0.6':
     dependencies:
@@ -13911,7 +13904,7 @@ snapshots:
 
   '@types/ws@7.4.7':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 22.10.5
 
   '@types/ws@8.5.13':
     dependencies:
