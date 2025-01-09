@@ -218,7 +218,7 @@ importers:
         version: 2.1.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@pandacss/dev':
         specifier: ^0.44.0 || ^0.49.0 || ^0.50.0 || ^0.51.0
-        version: 0.51.0(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.7.2)
+        version: 0.51.0(jsdom@25.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@5.7.3)
       '@react-spring/web':
         specifier: ^9.7.3
         version: 9.7.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -318,8 +318,8 @@ importers:
         specifier: ^0.51.0
         version: 0.51.0(jsdom@25.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@5.7.3)
       '@types/node':
-        specifier: ^20.12.7
-        version: 20.17.12
+        specifier: ^22.0.0
+        version: 22.10.5
       '@types/react':
         specifier: ^18.3.12
         version: 18.3.18
@@ -3387,9 +3387,6 @@ packages:
   '@types/node@17.0.45':
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
 
-  '@types/node@20.17.12':
-    resolution: {integrity: sha512-vo/wmBgMIiEA23A/knMfn/cf37VnuF52nZh5ZoW0GWt4e4sxNquibrMRJ7UQsA06+MBx9r/H1jsI9grYjQCQlw==}
-
   '@types/node@22.10.2':
     resolution: {integrity: sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==}
 
@@ -4253,10 +4250,6 @@ packages:
 
   buffer@6.0.3:
     resolution: {integrity: sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==}
-
-  bufferutil@4.0.8:
-    resolution: {integrity: sha512-4T53u4PdgsXqKaIctwF8ifXlRTTmEPJ8iEPWFdGZvcf7sbwYo6FKFEX9eNNAnzFZ7EzJAQ3CJeOtCRA4rDp7Pw==}
-    engines: {node: '>=6.14.2'}
 
   bufferutil@4.0.9:
     resolution: {integrity: sha512-WDtdLmJvAuNNPzByAYpRo2rF1Mmradw6gvWsQKf63476DDXmomT9zUiGypLcG4ibIM67vhAj8jJRdbmEws2Aqw==}
@@ -9225,11 +9218,6 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  typescript@5.7.2:
-    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
-    engines: {node: '>=14.17'}
-    hasBin: true
-
   typescript@5.7.3:
     resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
     engines: {node: '>=14.17'}
@@ -12837,22 +12825,6 @@ snapshots:
       postcss-selector-parser: 6.1.2
       ts-pattern: 5.0.8
 
-  '@pandacss/dev@0.51.0(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.7.2)':
-    dependencies:
-      '@clack/prompts': 0.7.0
-      '@pandacss/config': 0.51.0
-      '@pandacss/logger': 0.51.0
-      '@pandacss/node': 0.51.0(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.7.2)
-      '@pandacss/postcss': 0.51.0(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.7.2)
-      '@pandacss/preset-panda': 0.51.0
-      '@pandacss/shared': 0.51.0
-      '@pandacss/token-dictionary': 0.51.0
-      '@pandacss/types': 0.51.0
-      cac: 6.7.14
-    transitivePeerDependencies:
-      - jsdom
-      - typescript
-
   '@pandacss/dev@0.51.0(jsdom@25.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@5.7.3)':
     dependencies:
       '@clack/prompts': 0.7.0
@@ -12865,15 +12837,6 @@ snapshots:
       '@pandacss/token-dictionary': 0.51.0
       '@pandacss/types': 0.51.0
       cac: 6.7.14
-    transitivePeerDependencies:
-      - jsdom
-      - typescript
-
-  '@pandacss/extractor@0.51.0(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.7.2)':
-    dependencies:
-      '@pandacss/shared': 0.51.0
-      ts-evaluator: 1.2.0(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.7.2)
-      ts-morph: 24.0.0
     transitivePeerDependencies:
       - jsdom
       - typescript
@@ -12908,39 +12871,6 @@ snapshots:
       '@pandacss/types': 0.51.0
       kleur: 4.1.5
 
-  '@pandacss/node@0.51.0(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.7.2)':
-    dependencies:
-      '@pandacss/config': 0.51.0
-      '@pandacss/core': 0.51.0
-      '@pandacss/generator': 0.51.0
-      '@pandacss/logger': 0.51.0
-      '@pandacss/parser': 0.51.0(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.7.2)
-      '@pandacss/reporter': 0.51.0
-      '@pandacss/shared': 0.51.0
-      '@pandacss/token-dictionary': 0.51.0
-      '@pandacss/types': 0.51.0
-      browserslist: 4.23.3
-      chokidar: 3.6.0
-      fast-glob: 3.3.2
-      fs-extra: 11.2.0
-      glob-parent: 6.0.2
-      is-glob: 4.0.3
-      lodash.merge: 4.6.2
-      look-it-up: 2.1.0
-      outdent: 0.8.0
-      package-manager-detector: 0.1.0
-      perfect-debounce: 1.0.0
-      pkg-types: 1.0.3
-      pluralize: 8.0.0
-      postcss: 8.4.49
-      prettier: 3.2.5
-      ts-morph: 24.0.0
-      ts-pattern: 5.0.8
-      tsconfck: 3.0.2(typescript@5.7.2)
-    transitivePeerDependencies:
-      - jsdom
-      - typescript
-
   '@pandacss/node@0.51.0(jsdom@25.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@5.7.3)':
     dependencies:
       '@pandacss/config': 0.51.0
@@ -12974,22 +12904,6 @@ snapshots:
       - jsdom
       - typescript
 
-  '@pandacss/parser@0.51.0(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.7.2)':
-    dependencies:
-      '@pandacss/config': 0.51.0
-      '@pandacss/core': 0.51.0
-      '@pandacss/extractor': 0.51.0(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.7.2)
-      '@pandacss/logger': 0.51.0
-      '@pandacss/shared': 0.51.0
-      '@pandacss/types': 0.51.0
-      '@vue/compiler-sfc': 3.4.19
-      magic-string: 0.30.17
-      ts-morph: 24.0.0
-      ts-pattern: 5.0.8
-    transitivePeerDependencies:
-      - jsdom
-      - typescript
-
   '@pandacss/parser@0.51.0(jsdom@25.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@5.7.3)':
     dependencies:
       '@pandacss/config': 0.51.0
@@ -13002,14 +12916,6 @@ snapshots:
       magic-string: 0.30.17
       ts-morph: 24.0.0
       ts-pattern: 5.0.8
-    transitivePeerDependencies:
-      - jsdom
-      - typescript
-
-  '@pandacss/postcss@0.51.0(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.7.2)':
-    dependencies:
-      '@pandacss/node': 0.51.0(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.7.2)
-      postcss: 8.4.49
     transitivePeerDependencies:
       - jsdom
       - typescript
@@ -13952,7 +13858,7 @@ snapshots:
 
   '@types/http-proxy@1.17.15':
     dependencies:
-      '@types/node': 20.17.12
+      '@types/node': 22.10.5
 
   '@types/js-yaml@4.0.9': {}
 
@@ -13978,10 +13884,6 @@ snapshots:
   '@types/node@12.20.55': {}
 
   '@types/node@17.0.45': {}
-
-  '@types/node@20.17.12':
-    dependencies:
-      undici-types: 6.19.8
 
   '@types/node@22.10.2':
     dependencies:
@@ -15263,11 +15165,6 @@ snapshots:
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
-
-  bufferutil@4.0.8:
-    dependencies:
-      node-gyp-build: 4.8.4
-    optional: true
 
   bufferutil@4.0.9:
     dependencies:
@@ -18362,35 +18259,6 @@ snapshots:
 
   jsbn@1.1.0: {}
 
-  jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10):
-    dependencies:
-      cssstyle: 4.1.0
-      data-urls: 5.0.0
-      decimal.js: 10.4.3
-      form-data: 4.0.1
-      html-encoding-sniffer: 4.0.0
-      http-proxy-agent: 7.0.2
-      https-proxy-agent: 7.0.6
-      is-potential-custom-element-name: 1.0.1
-      nwsapi: 2.2.16
-      parse5: 7.2.1
-      rrweb-cssom: 0.7.1
-      saxes: 6.0.0
-      symbol-tree: 3.2.4
-      tough-cookie: 5.0.0
-      w3c-xmlserializer: 5.0.0
-      webidl-conversions: 7.0.0
-      whatwg-encoding: 3.1.1
-      whatwg-mimetype: 4.0.0
-      whatwg-url: 14.1.0
-      ws: 8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
-      xml-name-validator: 5.0.0
-    transitivePeerDependencies:
-      - bufferutil
-      - supports-color
-      - utf-8-validate
-    optional: true
-
   jsdom@25.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
       cssstyle: 4.1.0
@@ -21068,15 +20936,6 @@ snapshots:
     dependencies:
       typescript: 5.7.3
 
-  ts-evaluator@1.2.0(jsdom@25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.7.2):
-    dependencies:
-      ansi-colors: 4.1.3
-      crosspath: 2.0.0
-      object-path: 0.11.8
-      typescript: 5.7.2
-    optionalDependencies:
-      jsdom: 25.0.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
-
   ts-evaluator@1.2.0(jsdom@25.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@5.7.3):
     dependencies:
       ansi-colors: 4.1.3
@@ -21116,10 +20975,6 @@ snapshots:
   ts-pattern@5.0.8: {}
 
   ts-pattern@5.6.0: {}
-
-  tsconfck@3.0.2(typescript@5.7.2):
-    optionalDependencies:
-      typescript: 5.7.2
 
   tsconfck@3.0.2(typescript@5.7.3):
     optionalDependencies:
@@ -21251,8 +21106,6 @@ snapshots:
   typescript@5.4.2: {}
 
   typescript@5.6.2: {}
-
-  typescript@5.7.2: {}
 
   typescript@5.7.3: {}
 
@@ -22294,12 +22147,6 @@ snapshots:
     optionalDependencies:
       bufferutil: 4.0.9
       utf-8-validate: 5.0.10
-
-  ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10):
-    optionalDependencies:
-      bufferutil: 4.0.8
-      utf-8-validate: 5.0.10
-    optional: true
 
   ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     optionalDependencies:
