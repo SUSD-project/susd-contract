@@ -11341,7 +11341,7 @@ snapshots:
       assemblyscript: 0.19.23
       binary-install: 1.1.0(debug@4.3.7)
       chokidar: 4.0.1
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
       docker-compose: 1.1.0
       fs-extra: 11.2.0
       glob: 11.0.0
@@ -12695,7 +12695,7 @@ snapshots:
       ansis: 3.4.0
       clean-stack: 3.0.1
       cli-spinners: 2.9.2
-      debug: 4.4.0(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@8.1.1)
       ejs: 3.1.10
       get-package-type: 0.1.0
       globby: 11.1.0
@@ -12969,7 +12969,7 @@ snapshots:
       async: 3.2.6
       chalk: 3.0.0
       dayjs: 1.8.36
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
       eventemitter2: 5.0.1
       fast-json-patch: 3.1.1
       fclone: 1.0.11
@@ -12987,7 +12987,7 @@ snapshots:
   '@pm2/io@6.0.1':
     dependencies:
       async: 2.6.4
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
       eventemitter2: 6.4.9
       require-in-the-middle: 5.2.0
       semver: 7.5.4
@@ -13000,7 +13000,7 @@ snapshots:
   '@pm2/js-api@0.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
       async: 2.6.4
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
       eventemitter2: 6.4.9
       extrareqp2: 1.0.0(debug@4.3.7)
       ws: 7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -15829,9 +15829,11 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
-  debug@4.3.7:
+  debug@4.3.7(supports-color@8.1.1):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 8.1.1
 
   debug@4.4.0(supports-color@8.1.1):
     dependencies:
@@ -16106,7 +16108,7 @@ snapshots:
   engine.io-client@6.6.2(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
       '@socket.io/component-emitter': 3.1.2
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
       engine.io-parser: 5.2.3
       ws: 8.17.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       xmlhttprequest-ssl: 2.1.2
@@ -17083,7 +17085,7 @@ snapshots:
 
   follow-redirects@1.15.9(debug@4.3.7):
     optionalDependencies:
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
 
   follow-redirects@1.15.9(debug@4.4.0):
     optionalDependencies:
@@ -20446,7 +20448,7 @@ snapshots:
   socket.io-client@4.8.1(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
       '@socket.io/component-emitter': 3.1.2
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
       engine.io-client: 6.6.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       socket.io-parser: 4.2.4
     transitivePeerDependencies:
@@ -20457,7 +20459,7 @@ snapshots:
   socket.io-parser@4.2.4:
     dependencies:
       '@socket.io/component-emitter': 3.1.2
-      debug: 4.3.7
+      debug: 4.3.7(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
