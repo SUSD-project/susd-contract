@@ -318,7 +318,7 @@ importers:
         specifier: ^0.51.0
         version: 0.51.0(jsdom@25.0.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@5.7.3)
       '@types/node':
-        specifier: ^20.12.7
+        specifier: ^22.0.0
         version: 22.10.5
       '@types/react':
         specifier: ^18.3.12
@@ -13809,7 +13809,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 12.20.55
+      '@types/node': 22.10.5
       '@types/responselike': 1.0.3
 
   '@types/chai-as-promised@7.1.8':
@@ -13824,7 +13824,7 @@ snapshots:
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 22.10.5
 
   '@types/debug@4.1.12':
     dependencies:
@@ -13841,7 +13841,7 @@ snapshots:
   '@types/fs-extra@11.0.4':
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 22.10.2
+      '@types/node': 22.10.5
     optional: true
 
   '@types/glob@7.2.0':
@@ -13861,12 +13861,12 @@ snapshots:
 
   '@types/jsonfile@6.1.4':
     dependencies:
-      '@types/node': 22.10.2
+      '@types/node': 22.10.5
     optional: true
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 22.10.5
 
   '@types/lru-cache@5.1.1': {}
 
@@ -13914,7 +13914,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 22.10.5
 
   '@types/secp256k1@4.0.6':
     dependencies:
@@ -13924,7 +13924,7 @@ snapshots:
 
   '@types/ws@7.4.7':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 22.10.5
 
   '@types/ws@8.5.13':
     dependencies:
