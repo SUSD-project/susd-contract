@@ -4,7 +4,7 @@ pragma solidity 0.8.24;
 
 import "openzeppelin-contracts/contracts/token/ERC20/extensions/ERC20Permit.sol";
 import "./Dependencies/Ownable.sol";
-import "./Interfaces/IBoldToken.sol";
+import "./Interfaces/ISUSDToken.sol";
 
 /*
  * --- Functionality added specific to the BoldToken ---
