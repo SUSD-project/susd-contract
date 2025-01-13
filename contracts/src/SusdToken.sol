@@ -106,14 +106,14 @@ contract BoldToken is Ownable, IBoldToken, ERC20Permit {
     function _requireValidRecipient(address _recipient) internal view {
         require(
             _recipient != address(0) && _recipient != address(this),
-            "Bold: Cannot transfer tokens directly to the Bold token contract or the zero address"
+            "Susd Cannot transfer tokens directly to the Bold token contract or the zero address"
         );
     }
 
     function _requireCallerIsBOorAP() internal view {
         require(
             borrowerOperationsAddresses[msg.sender] || activePoolAddresses[msg.sender],
-            "BoldToken: Caller is not BO or AP"
+            "SusdToken: Caller is not BO or AP"
         );
     }
 
