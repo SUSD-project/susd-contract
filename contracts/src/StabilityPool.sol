@@ -8,7 +8,7 @@ import "./Interfaces/IStabilityPool.sol";
 import "./Interfaces/IAddressesRegistry.sol";
 import "./Interfaces/IStabilityPoolEvents.sol";
 import "./Interfaces/ITroveManager.sol";
-import "./Interfaces/IBoldToken.sol";
+import "./Interfaces/ISUSDToken.sol";
 import "./Dependencies/LiquityBase.sol";
 
 /*

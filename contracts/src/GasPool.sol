@@ -5,7 +5,6 @@ import "openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
 
 import "./Interfaces/IAddressesRegistry.sol";
 import "./Interfaces/IBorrowerOperations.sol";
-import "./Interfaces/ITroveManager.sol";
 
 /**
  * The purpose of this contract is to hold WETH tokens for gas compensation:

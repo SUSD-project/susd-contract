@@ -11,7 +11,7 @@ import {ETH_GAS_COMPENSATION} from "../Dependencies/Constants.sol";
 import {IBorrowerOperations} from "../Interfaces/IBorrowerOperations.sol";
 import "../AddressesRegistry.sol";
 import "../ActivePool.sol";
-import "../BoldToken.sol";
+import "../SUSDToken.sol";
 import "../BorrowerOperations.sol";
 import "../CollSurplusPool.sol";
 import "../DefaultPool.sol";
@@ -22,7 +22,6 @@ import "../SortedTroves.sol";
 import "../StabilityPool.sol";
 import "../test/TestContracts/BorrowerOperationsTester.t.sol";
 import "../test/TestContracts/TroveManagerTester.t.sol";
-import "../TroveNFT.sol";
 import "../CollateralRegistry.sol";
 import "../test/TestContracts/PriceFeedTestnet.sol";
 import "../test/TestContracts/MetadataDeployment.sol";
@@ -84,8 +83,6 @@ contract DeployLiquity2Script is DeployGovernance, UniPriceConverter, StdCheats,
         ISortedTroves sortedTroves;
         IStabilityPool stabilityPool;
         ITroveManager troveManager;
-        ITroveNFT troveNFT;
-        MetadataNFT metadataNFT;
         IPriceFeedTestnet priceFeed; // Tester
         GasPool gasPool;
         IInterestRouter interestRouter;
@@ -103,8 +100,6 @@ contract DeployLiquity2Script is DeployGovernance, UniPriceConverter, StdCheats,
         address sortedTroves;
         address stabilityPool;
         address troveManager;
-        address troveNFT;
-        address metadataNFT;
         address priceFeed;
         address gasPool;
         address interestRouter;

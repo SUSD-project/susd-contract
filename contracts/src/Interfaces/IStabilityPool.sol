@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 import "./IActivePool.sol";
 import "./ILiquityBase.sol";
-import "./IBoldToken.sol";
+import "./ISUSDToken.sol";
 import "./ITroveManager.sol";
 import "./IBoldRewardsReceiver.sol";
 
