@@ -142,7 +142,7 @@ importers:
         version: 0.33.5
       ts-pattern:
         specifier: ^5.5.0
-        version: 5.6.0
+        version: 5.6.1
       valibot:
         specifier: ^0.42.1
         version: 0.42.1(typescript@5.7.3)
@@ -312,7 +312,7 @@ importers:
         version: 19.0.0(react@19.0.0)
       ts-pattern:
         specifier: ^5.5.0
-        version: 5.6.0
+        version: 5.6.1
     devDependencies:
       '@pandacss/dev':
         specifier: ^0.51.0
@@ -9141,6 +9141,9 @@ packages:
 
   ts-pattern@5.6.0:
     resolution: {integrity: sha512-SL8u60X5+LoEy9tmQHWCdPc2hhb2pKI6I1tU5Jue3v8+iRqZdcT3mWPwKKJy1fMfky6uha82c8ByHAE8PMhKHw==}
+
+  ts-pattern@5.6.1:
+    resolution: {integrity: sha512-k126YkAs7sZFGTIr6rEdEbxOkqj4cEKAfhwpJMQcwt2M1SuwSD4PM2ClfeUuIlLwEMtVotiZhOsqXNNWqAMWKA==}
 
   tsconfck@3.0.2:
     resolution: {integrity: sha512-6lWtFjwuhS3XI4HsX4Zg0izOI3FU/AI9EGVlPEUMDIhvLPMD4wkiof0WCoDgW7qY+Dy198g4d9miAqUHWHFH6Q==}
@@ -21243,6 +21246,8 @@ snapshots:
   ts-pattern@5.0.8: {}
 
   ts-pattern@5.6.0: {}
+
+  ts-pattern@5.6.1: {}
 
   tsconfck@3.0.2(typescript@5.7.3):
     optionalDependencies:
