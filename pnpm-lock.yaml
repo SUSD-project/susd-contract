@@ -318,7 +318,7 @@ importers:
         specifier: ^0.51.0
         version: 0.51.1(jsdom@26.0.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@5.7.3)
       '@types/node':
-        specifier: ^20.12.7
+        specifier: ^22.0.0
         version: 22.10.10
       '@types/react':
         specifier: ^18.3.18
