@@ -318,8 +318,8 @@ importers:
         specifier: ^0.51.0
         version: 0.51.1(jsdom@26.0.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@5.7.3)
       '@types/node':
-        specifier: ^22.0.0
-        version: 22.10.10
+        specifier: ^20.12.7
+        version: 20.17.16
       '@types/react':
         specifier: ^18.3.18
         version: 18.3.18
@@ -3235,6 +3235,9 @@ packages:
 
   '@types/node@17.0.45':
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
+
+  '@types/node@20.17.16':
+    resolution: {integrity: sha512-vOTpLduLkZXePLxHiHsBLp98mHGnl8RptV4YAO3HfKO5UHjDvySGbxKtpYfy8Sx5+WKcgc45qNreJJRVM3L6mw==}
 
   '@types/node@22.10.10':
     resolution: {integrity: sha512-X47y/mPNzxviAGY5TcYPtYL8JsY3kAq2n8fMmKoRCxq/c4v4pyGNCzM2R6+M5/umG4ZfHuT+sgqDYqWc9rJ6ww==}
@@ -13793,7 +13796,7 @@ snapshots:
 
   '@types/http-proxy@1.17.15':
     dependencies:
-      '@types/node': 22.10.10
+      '@types/node': 20.17.16
 
   '@types/js-yaml@4.0.9': {}
 
@@ -13819,6 +13822,10 @@ snapshots:
   '@types/node@12.20.55': {}
 
   '@types/node@17.0.45': {}
+
+  '@types/node@20.17.16':
+    dependencies:
+      undici-types: 6.19.8
 
   '@types/node@22.10.10':
     dependencies:
