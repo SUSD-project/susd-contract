@@ -1,2 +1,2 @@
-slither-analyzer==0.10.4
+slither-analyzer==0.11.0
 slitherin==0.7.2
