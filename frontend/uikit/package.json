@@ -48,7 +48,7 @@
     "update-icons": "pnpm tsx scripts/update-icons.ts"
   },
   "peerDependencies": {
-    "@pandacss/dev": "^0.44.0 || ^0.49.0 || ^0.50.0 || ^0.51.0",
+    "@pandacss/dev": "^0.44.0 || ^0.49.0 || ^0.50.0 || ^0.51.0 || ^0.52.0",
     "@react-spring/web": "^9.7.3",
     "blo": "^1.2.0",
     "react": ">=18.0.0-0",
