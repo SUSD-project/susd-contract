@@ -1,6 +1,5 @@
 # SUSD Contract 💵
 
-#
 ### Mainnet PriceFeed contracts
 
 Different PriceFeed contracts are needed for pricing collaterals on different branches, since the price calculation methods differ across LSTs see the [Oracle section](#oracles-in-liquity-v2). However, much of the functionality is common to a couple of parent contracts.
