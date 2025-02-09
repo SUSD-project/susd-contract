@@ -118,7 +118,7 @@ importers:
         version: 1.4.1(next@15.1.6(@babel/core@7.26.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
       '@wagmi/core':
         specifier: ^2.14.1
-        version: 2.16.3(@tanstack/query-core@5.66.0)(@types/react@19.0.8)(immer@10.0.2)(react@19.0.0)(typescript@5.7.3)(use-sync-external-store@1.4.0(react@19.0.0))(viem@2.22.23(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.24.1))
+        version: 2.16.4(@tanstack/query-core@5.66.0)(@types/react@19.0.8)(immer@10.0.2)(react@19.0.0)(typescript@5.7.3)(use-sync-external-store@1.4.0(react@19.0.0))(viem@2.22.23(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.24.1))
       blo:
         specifier: ^1.2.0
         version: 1.2.0
@@ -3563,18 +3563,6 @@ packages:
       typescript: '>=5.0.4'
       viem: 2.x
     peerDependenciesMeta:
-      typescript:
-        optional: true
-
-  '@wagmi/core@2.16.3':
-    resolution: {integrity: sha512-SVovoWHaQ2AIkmGf+ucNijT6AHXcTMffFcLmcFF6++y21x+ge7Gkh3UoJiU91SDDv8n08eTQ9jbyia3GEgU5jQ==}
-    peerDependencies:
-      '@tanstack/query-core': '>=5.0.0'
-      typescript: '>=5.0.4'
-      viem: 2.x
-    peerDependenciesMeta:
-      '@tanstack/query-core':
-        optional: true
       typescript:
         optional: true
 
@@ -14290,21 +14278,6 @@ snapshots:
       - uploadthing
       - utf-8-validate
       - zod
-
-  '@wagmi/core@2.16.3(@tanstack/query-core@5.66.0)(@types/react@19.0.8)(immer@10.0.2)(react@19.0.0)(typescript@5.7.3)(use-sync-external-store@1.4.0(react@19.0.0))(viem@2.22.23(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.24.1))':
-    dependencies:
-      eventemitter3: 5.0.1
-      mipd: 0.0.7(typescript@5.7.3)
-      viem: 2.22.23(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.24.1)
-      zustand: 5.0.0(@types/react@19.0.8)(immer@10.0.2)(react@19.0.0)(use-sync-external-store@1.4.0(react@19.0.0))
-    optionalDependencies:
-      '@tanstack/query-core': 5.66.0
-      typescript: 5.7.3
-    transitivePeerDependencies:
-      - '@types/react'
-      - immer
-      - react
-      - use-sync-external-store
 
   '@wagmi/core@2.16.4(@tanstack/query-core@5.66.0)(@types/react@19.0.8)(immer@10.0.2)(react@19.0.0)(typescript@5.7.3)(use-sync-external-store@1.4.0(react@19.0.0))(viem@2.22.23(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)(zod@3.24.1))':
     dependencies:
