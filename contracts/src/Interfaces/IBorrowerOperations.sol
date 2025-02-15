@@ -4,10 +4,9 @@ pragma solidity ^0.8.0;
 
 import "./ILiquityBase.sol";
 import "./IAddRemoveManagers.sol";
-import "./IBoldToken.sol";
+import "./ISUSdToken.sol";
 import "./IPriceFeed.sol";
 import "./ISortedTroves.sol";
-import "./ITroveManager.sol";
 import "./IWETH.sol";
 
 // Common interface for the Borrower Operations.
