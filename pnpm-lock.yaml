@@ -319,7 +319,7 @@ importers:
         version: 0.53.0(jsdom@26.0.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typescript@5.7.3)
       '@types/node':
         specifier: ^20.12.7
-        version: 22.13.5
+        version: 20.17.19
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.10
@@ -3183,6 +3183,9 @@ packages:
 
   '@types/node@17.0.45':
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
+
+  '@types/node@20.17.19':
+    resolution: {integrity: sha512-LEwC7o1ifqg/6r2gn9Dns0f1rhK+fPFDoMiceTJ6kWmVk6bgXBI/9IOWfVan4WiAavK9pIVWdX0/e3J+eEUh5A==}
 
   '@types/node@22.13.1':
     resolution: {integrity: sha512-jK8uzQlrvXqEU91UxiK5J7pKHyzgnI1Qnl0QDHIgVGuolJhRb9EEl28Cj9b3rGR8B2lhFCtvIm5os8lFnO/1Ew==}
@@ -13589,7 +13592,7 @@ snapshots:
 
   '@types/http-proxy@1.17.15':
     dependencies:
-      '@types/node': 22.13.5
+      '@types/node': 20.17.19
 
   '@types/js-yaml@4.0.9': {}
 
@@ -13615,6 +13618,10 @@ snapshots:
   '@types/node@12.20.55': {}
 
   '@types/node@17.0.45': {}
+
+  '@types/node@20.17.19':
+    dependencies:
+      undici-types: 6.19.8
 
   '@types/node@22.13.1':
     dependencies:
