@@ -355,8 +355,8 @@ importers:
         version: 8.3.2
     devDependencies:
       '@graphprotocol/graph-cli':
-        specifier: ^0.95.0
-        version: 0.95.0(@types/node@22.13.10)(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)(zod@3.24.2)
+        specifier: ^0.96.0
+        version: 0.96.0(@types/node@22.13.10)(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)(zod@3.24.2)
 
 packages:
 
@@ -1337,8 +1337,8 @@ packages:
   '@floating-ui/utils@0.2.8':
     resolution: {integrity: sha512-kym7SodPp8/wloecOpcmSnWJsK7M0E5Wg8UcFA+uO4B9s5d0ywXOEro/8HM9x0rW+TljRzul/14UYz3TleT3ig==}
 
-  '@graphprotocol/graph-cli@0.95.0':
-    resolution: {integrity: sha512-UcIWBl0iIuE36B5WBDjsnnSUb5PiXQtfE30tStrypWCqJpLrJtEBaBYDqU7BfR+7JnfexQTXD5H/97R5iXfc7g==}
+  '@graphprotocol/graph-cli@0.96.0':
+    resolution: {integrity: sha512-zjVMtzoipxj5tBEAXFBVAIHT6kkxMYauXHX00/IoTu3pE26hdt4ogV1vbfBai/TnPkQCDR86vJiN0XqPfc+7sw==}
     engines: {node: '>=20.18.1'}
     hasBin: true
 
@@ -1812,9 +1812,6 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
-
-  '@kamilkisiela/fast-url-parser@1.1.4':
-    resolution: {integrity: sha512-gbkePEBupNydxCelHCESvFSFM8XPh1Zs/OAVRW/rKpEqPAl5PbOM90Si8mv9bvnR53uPD2s/FiRxdvSejpRJew==}
 
   '@leichtgewicht/ip-codec@2.0.5':
     resolution: {integrity: sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==}
@@ -2323,8 +2320,8 @@ packages:
       web3-eth-abi: ^1.2.1
       web3-utils: ^1.2.1
 
-  '@oclif/core@4.0.34':
-    resolution: {integrity: sha512-jHww7lIqyifamynDSjDNNjNOwFTQdKYeOSYaxUaoWhqXnRwacZ+pfUN4Y0L9lqSN4MQtlWM9mwnBD7FvlT9kPw==}
+  '@oclif/core@4.2.6':
+    resolution: {integrity: sha512-agk1Tlm7qMemWx+qq5aNgkYwX2JCkoVP4M0ruFveJrarmdUPbKZTMW1j/eg8lNKZh1sp68ytZyKhYXYEfRPcww==}
     engines: {node: '>=18.0.0'}
 
   '@oclif/plugin-autocomplete@3.2.14':
@@ -3605,16 +3602,8 @@ packages:
     resolution: {integrity: sha512-9lXugdknoIequO4OYvIjhygvfSEgnO8oASLqLelnDhkRjgBZhc39shC3QSlZuyDO9bgYSIVa2cHAiN+St3ty4w==}
     engines: {node: '>=18.0.0'}
 
-  '@whatwg-node/fetch@0.10.1':
-    resolution: {integrity: sha512-gmPOLrsjSZWEZlr9Oe5+wWFBq3CG6fN13rGlM91Jsj/vZ95G9CCvrORGBAxMXy0AJGiC83aYiHXn3JzTzXQmbA==}
-    engines: {node: '>=18.0.0'}
-
   '@whatwg-node/fetch@0.10.3':
     resolution: {integrity: sha512-jCTL/qYcIW2GihbBRHypQ/Us7saWMNZ5fsumsta+qPY0Pmi1ccba/KRQvgctmQsbP69FWemJSs8zVcFaNwdL0w==}
-    engines: {node: '>=18.0.0'}
-
-  '@whatwg-node/node-fetch@0.7.5':
-    resolution: {integrity: sha512-t7kGrt2fdfNvzy1LCAE9/OnIyMtizgFhgJmk7iLJwQsLmR7S86F8Q4aDRPbCfo7pISJP6Fx/tPdfFNjHS23WTA==}
     engines: {node: '>=18.0.0'}
 
   '@whatwg-node/node-fetch@0.7.9':
@@ -3793,6 +3782,10 @@ packages:
   ansi-styles@6.2.1:
     resolution: {integrity: sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==}
     engines: {node: '>=12'}
+
+  ansis@3.17.0:
+    resolution: {integrity: sha512-0qWUglt9JEqLFr3w1I1pbrChn1grhaiAR2ocX1PP/flRmxgtwTzPFFFnfIlD6aMOLQZgSuCRlidD70lvx8yhzg==}
+    engines: {node: '>=14'}
 
   ansis@3.4.0:
     resolution: {integrity: sha512-zVESKSQhWaPhGaWiKj1k+UqvpC7vPBBgG3hjQEeIx2YGzylWt8qA3ziAzRuUtm0OnaGsZKjIvfl8D/sJTt/I0w==}
@@ -4291,10 +4284,6 @@ packages:
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
     engines: {node: '>= 8.10.0'}
-
-  chokidar@4.0.1:
-    resolution: {integrity: sha512-n8enUVCED/KVRQlab1hr3MVpcVMvxtZjmEa956u+4YijlmQED223XMSYj2tLuKvr4jcCTzNNMpQDUer72MMmzA==}
-    engines: {node: '>= 14.16.0'}
 
   chokidar@4.0.3:
     resolution: {integrity: sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==}
@@ -5426,9 +5415,6 @@ packages:
     resolution: {integrity: sha512-3vtXinVyuUKCKFKYcwXhGE6NtGWkqF8Yh3rvMZNzmwz8EPrgoc/v4pDdLHyLnCyCI5MZpZZkDEwFyXyEONOxpA==}
     engines: {node: '>=8.0.0'}
 
-  fast-decode-uri-component@1.0.1:
-    resolution: {integrity: sha512-WKgKWg5eUxvRZGwW8FvfbaH7AXSh2cL+3j5fMGzUMCxWBJ3dV3a7Wz8y2f/uQ0e3B6WmodD3oS54jTQ9HVTIIg==}
-
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
 
@@ -5454,9 +5440,6 @@ packages:
 
   fast-levenshtein@3.0.0:
     resolution: {integrity: sha512-hKKNajm46uNmTlhHSyZkmToAc56uZJwYq7yrciZjqOxnlfQwERDQJmHPUp7m1m9wx8vgOe8IaCKZ5Kv2k1DdCQ==}
-
-  fast-querystring@1.1.2:
-    resolution: {integrity: sha512-g6KuKWmFXc0fID8WWH0jit4g0AGBoJhCkJMb1RmbsSEUNvQ+ZC8D6CUZ+GtF8nMzSPXnhiePyyqqipzNNEnHjg==}
 
   fast-redact@3.5.0:
     resolution: {integrity: sha512-dwsoQlS7h9hMeYUq1W++23NDcBLV4KqONnITDV9DjfS3q1SgDGVrBdvvTLUotWtPSD7asWDV9/CmsZPy8Hf70A==}
@@ -5755,8 +5738,8 @@ packages:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
     hasBin: true
 
-  glob@11.0.0:
-    resolution: {integrity: sha512-9UiX/Bl6J2yaBbxKoEBRm4Cipxgok8kQYcOPEhScPwebu2I0HoQOuYdIO6S3hLuWoZgpDpwQZMzTFxgpkyT76g==}
+  glob@11.0.1:
+    resolution: {integrity: sha512-zrQDm8XPnYEKawJScsnM0QzobJxlT/kHOOlRTio8IH/GrmxRE5fjllkzdaHclIuNjUQTJYH2xHNIGfdpJkDJUw==}
     engines: {node: 20 || >=22}
     hasBin: true
 
@@ -5884,10 +5867,6 @@ packages:
 
   graphql@16.10.0:
     resolution: {integrity: sha512-AjqGKbDGUFRKIRCP9tCKiIGHyriz2oHEbPIbEtcSLSs4YjReZOIPQQWek4+6hjw62H9QShXHyaGivGiYVLeYFQ==}
-    engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
-
-  graphql@16.9.0:
-    resolution: {integrity: sha512-GGTKBX4SD7Wdb8mqeDLni2oaRGYQWjWHGKPQ24ZMnUtKfcsVoiv4uX8+LJr1K6U5VW2Lu1BwJnj7uiori0YtRw==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
 
   gzip-size@6.0.0:
@@ -9246,8 +9225,8 @@ packages:
     resolution: {integrity: sha512-q/1rj5D0/zayJB2FraXdaWxbhWiNKDvu8naDT2dl1yTlvJp4BLtOcp2a5BvgGNQpYYJzau7tf1WgKv3b+7mqpQ==}
     engines: {node: '>=18.17'}
 
-  undici@7.2.3:
-    resolution: {integrity: sha512-2oSLHaDalSt2/O/wHA9M+/ZPAOcU2yrSP/cdBYJ+YxZskiPYDSqHbysLSlD7gq3JMqOoJI5O31RVU3BxX/MnAA==}
+  undici@7.3.0:
+    resolution: {integrity: sha512-Qy96NND4Dou5jKoSJ2gm8ax8AJM/Ey9o9mz7KN1bb9GP+G0l20Zw8afxTnY2f4b7hmhn/z8aC2kfArVQlAhFBw==}
     engines: {node: '>=20.18.1'}
 
   universalify@0.1.2:
@@ -10095,11 +10074,6 @@ packages:
   yaml@1.10.2:
     resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
     engines: {node: '>= 6'}
-
-  yaml@2.6.1:
-    resolution: {integrity: sha512-7r0XPzioN/Q9kXBro/XPnA6kznR73DHq+GXh5ON7ZozRO6aMjbmiBuKste2wslTFkC5d1dw0GooOCepZXJ2SAg==}
-    engines: {node: '>= 14'}
-    hasBin: true
 
   yaml@2.7.0:
     resolution: {integrity: sha512-+hSoy/QHluxmC9kCIJyL/uyFmLmc+e5CFR5Wa+bpIhIj85LVb9ZH2nVnqrHoSvKogwODv0ClqZkmiSSaIH5LTA==}
@@ -11248,34 +11222,34 @@ snapshots:
 
   '@floating-ui/utils@0.2.8': {}
 
-  '@graphprotocol/graph-cli@0.95.0(@types/node@22.13.10)(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)(zod@3.24.2)':
+  '@graphprotocol/graph-cli@0.96.0(@types/node@22.13.10)(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)(zod@3.24.2)':
     dependencies:
       '@float-capital/float-subgraph-uncrashable': 0.0.0-internal-testing.5
-      '@oclif/core': 4.0.34
+      '@oclif/core': 4.2.6
       '@oclif/plugin-autocomplete': 3.2.14
       '@oclif/plugin-not-found': 3.2.31(@types/node@22.13.10)
       '@oclif/plugin-warn-if-update-available': 3.1.28
       '@pinax/graph-networks-registry': 0.6.7
-      '@whatwg-node/fetch': 0.10.1
+      '@whatwg-node/fetch': 0.10.3
       assemblyscript: 0.19.23
-      chokidar: 4.0.1
-      debug: 4.3.7(supports-color@8.1.1)
+      chokidar: 4.0.3
+      debug: 4.4.0(supports-color@8.1.1)
       docker-compose: 1.1.0
-      fs-extra: 11.2.0
-      glob: 11.0.0
-      gluegun: 5.2.0(debug@4.3.7)
-      graphql: 16.9.0
+      fs-extra: 11.3.0
+      glob: 11.0.1
+      gluegun: 5.2.0(debug@4.4.0)
+      graphql: 16.10.0
       immutable: 5.0.3
       jayson: 4.1.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       js-yaml: 4.1.0
-      kubo-rpc-client: 5.0.2(undici@7.2.3)
+      kubo-rpc-client: 5.0.2(undici@7.3.0)
       open: 10.1.0
       prettier: 3.4.2
-      semver: 7.6.3
+      semver: 7.7.1
       tmp-promise: 3.0.3
-      undici: 7.2.3
+      undici: 7.3.0
       web3-eth-abi: 4.4.1(typescript@5.8.2)(zod@3.24.2)
-      yaml: 2.6.1
+      yaml: 2.7.0
     transitivePeerDependencies:
       - '@types/node'
       - bufferutil
@@ -11965,8 +11939,6 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@kamilkisiela/fast-url-parser@1.1.4': {}
-
   '@leichtgewicht/ip-codec@2.0.5': {}
 
   '@libp2p/crypto@5.0.8':
@@ -12639,13 +12611,13 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@oclif/core@4.0.34':
+  '@oclif/core@4.2.6':
     dependencies:
       ansi-escapes: 4.3.2
-      ansis: 3.4.0
+      ansis: 3.17.0
       clean-stack: 3.0.1
       cli-spinners: 2.9.2
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.4.0(supports-color@8.1.1)
       ejs: 3.1.10
       get-package-type: 0.1.0
       globby: 11.1.0
@@ -12653,7 +12625,7 @@ snapshots:
       is-wsl: 2.2.0
       lilconfig: 3.1.3
       minimatch: 9.0.5
-      semver: 7.6.3
+      semver: 7.7.1
       string-width: 4.2.3
       supports-color: 8.1.1
       widest-line: 3.1.0
@@ -12662,7 +12634,7 @@ snapshots:
 
   '@oclif/plugin-autocomplete@3.2.14':
     dependencies:
-      '@oclif/core': 4.0.34
+      '@oclif/core': 4.2.6
       ansis: 3.4.0
       debug: 4.4.0(supports-color@8.1.1)
       ejs: 3.1.10
@@ -12672,7 +12644,7 @@ snapshots:
   '@oclif/plugin-not-found@3.2.31(@types/node@22.13.10)':
     dependencies:
       '@inquirer/prompts': 7.2.0(@types/node@22.13.10)
-      '@oclif/core': 4.0.34
+      '@oclif/core': 4.2.6
       ansis: 3.4.0
       fast-levenshtein: 3.0.0
     transitivePeerDependencies:
@@ -12680,7 +12652,7 @@ snapshots:
 
   '@oclif/plugin-warn-if-update-available@3.1.28':
     dependencies:
-      '@oclif/core': 4.0.34
+      '@oclif/core': 4.2.6
       ansis: 3.4.0
       debug: 4.4.0(supports-color@8.1.1)
       http-call: 5.3.0
@@ -13088,7 +13060,7 @@ snapshots:
       async: 3.2.6
       chalk: 3.0.0
       dayjs: 1.8.36
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7
       eventemitter2: 5.0.1
       fast-json-patch: 3.1.1
       fclone: 1.0.11
@@ -13106,7 +13078,7 @@ snapshots:
   '@pm2/io@6.0.1':
     dependencies:
       async: 2.6.4
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7
       eventemitter2: 6.4.9
       require-in-the-middle: 5.2.0
       semver: 7.5.4
@@ -13119,7 +13091,7 @@ snapshots:
   '@pm2/js-api@0.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
       async: 2.6.4
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7
       eventemitter2: 6.4.9
       extrareqp2: 1.0.0(debug@4.3.7)
       ws: 7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -13858,7 +13830,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 12.20.55
+      '@types/node': 22.13.10
       '@types/responselike': 1.0.3
 
   '@types/chai-as-promised@7.1.8':
@@ -13873,7 +13845,7 @@ snapshots:
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 22.13.10
 
   '@types/debug@4.1.12':
     dependencies:
@@ -13890,7 +13862,7 @@ snapshots:
   '@types/fs-extra@11.0.4':
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 22.13.1
+      '@types/node': 22.13.10
     optional: true
 
   '@types/gensync@1.0.4': {}
@@ -13904,7 +13876,7 @@ snapshots:
 
   '@types/http-proxy@1.17.15':
     dependencies:
-      '@types/node': 20.17.24
+      '@types/node': 22.13.10
 
   '@types/js-yaml@4.0.9': {}
 
@@ -13912,12 +13884,12 @@ snapshots:
 
   '@types/jsonfile@6.1.4':
     dependencies:
-      '@types/node': 22.13.1
+      '@types/node': 22.13.10
     optional: true
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 22.13.10
 
   '@types/lru-cache@5.1.1': {}
 
@@ -13966,7 +13938,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 22.13.10
 
   '@types/secp256k1@4.0.6':
     dependencies:
@@ -13976,7 +13948,7 @@ snapshots:
 
   '@types/ws@7.4.7':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 22.13.10
 
   '@types/ws@8.5.14':
     dependencies:
@@ -14666,23 +14638,10 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@whatwg-node/fetch@0.10.1':
-    dependencies:
-      '@whatwg-node/node-fetch': 0.7.5
-      urlpattern-polyfill: 10.0.0
-
   '@whatwg-node/fetch@0.10.3':
     dependencies:
       '@whatwg-node/node-fetch': 0.7.9
       urlpattern-polyfill: 10.0.0
-
-  '@whatwg-node/node-fetch@0.7.5':
-    dependencies:
-      '@kamilkisiela/fast-url-parser': 1.1.4
-      '@whatwg-node/disposablestack': 0.0.5
-      busboy: 1.6.0
-      fast-querystring: 1.1.2
-      tslib: 2.8.1
 
   '@whatwg-node/node-fetch@0.7.9':
     dependencies:
@@ -14830,6 +14789,8 @@ snapshots:
 
   ansi-styles@6.2.1: {}
 
+  ansis@3.17.0: {}
+
   ansis@3.4.0: {}
 
   any-signal@4.1.1: {}
@@ -14839,9 +14800,9 @@ snapshots:
       normalize-path: 3.0.0
       picomatch: 2.3.1
 
-  apisauce@2.1.6(debug@4.3.7):
+  apisauce@2.1.6(debug@4.4.0):
     dependencies:
-      axios: 0.21.4(debug@4.3.7)
+      axios: 0.21.4(debug@4.4.0)
     transitivePeerDependencies:
       - debug
 
@@ -15004,9 +14965,9 @@ snapshots:
 
   axe-core@4.10.3: {}
 
-  axios@0.21.4(debug@4.3.7):
+  axios@0.21.4(debug@4.4.0):
     dependencies:
-      follow-redirects: 1.15.9(debug@4.3.7)
+      follow-redirects: 1.15.9(debug@4.4.0)
     transitivePeerDependencies:
       - debug
 
@@ -15426,10 +15387,6 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  chokidar@4.0.1:
-    dependencies:
-      readdirp: 4.1.2
-
   chokidar@4.0.3:
     dependencies:
       readdirp: 4.1.2
@@ -15840,11 +15797,9 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
-  debug@4.3.7(supports-color@8.1.1):
+  debug@4.3.7:
     dependencies:
       ms: 2.1.3
-    optionalDependencies:
-      supports-color: 8.1.1
 
   debug@4.4.0(supports-color@8.1.1):
     dependencies:
@@ -15969,7 +15924,7 @@ snapshots:
 
   docker-compose@1.1.0:
     dependencies:
-      yaml: 2.6.1
+      yaml: 2.7.0
 
   doctrine@2.1.0:
     dependencies:
@@ -16121,7 +16076,7 @@ snapshots:
   engine.io-client@6.6.3(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
       '@socket.io/component-emitter': 3.1.2
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7
       engine.io-parser: 5.2.3
       ws: 8.17.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       xmlhttprequest-ssl: 2.1.2
@@ -16920,8 +16875,6 @@ snapshots:
     dependencies:
       pure-rand: 5.0.5
 
-  fast-decode-uri-component@1.0.1: {}
-
   fast-deep-equal@3.1.3: {}
 
   fast-fifo@1.3.2: {}
@@ -16951,10 +16904,6 @@ snapshots:
   fast-levenshtein@3.0.0:
     dependencies:
       fastest-levenshtein: 1.0.16
-
-  fast-querystring@1.1.2:
-    dependencies:
-      fast-decode-uri-component: 1.0.1
 
   fast-redact@3.5.0: {}
 
@@ -17071,7 +17020,7 @@ snapshots:
 
   follow-redirects@1.15.9(debug@4.3.7):
     optionalDependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7
 
   follow-redirects@1.15.9(debug@4.4.0):
     optionalDependencies:
@@ -17296,7 +17245,7 @@ snapshots:
       package-json-from-dist: 1.0.1
       path-scurry: 1.11.1
 
-  glob@11.0.0:
+  glob@11.0.1:
     dependencies:
       foreground-child: 3.3.0
       jackspeak: 4.0.2
@@ -17389,9 +17338,9 @@ snapshots:
 
   globrex@0.1.2: {}
 
-  gluegun@5.2.0(debug@4.3.7):
+  gluegun@5.2.0(debug@4.4.0):
     dependencies:
-      apisauce: 2.1.6(debug@4.3.7)
+      apisauce: 2.1.6(debug@4.4.0)
       app-module-path: 2.2.0
       cli-table3: 0.6.0
       colors: 1.4.0
@@ -17508,8 +17457,6 @@ snapshots:
       ws: 8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
 
   graphql@16.10.0: {}
-
-  graphql@16.9.0: {}
 
   gzip-size@6.0.0:
     dependencies:
@@ -18398,7 +18345,7 @@ snapshots:
 
   kolorist@1.8.0: {}
 
-  kubo-rpc-client@5.0.2(undici@7.2.3):
+  kubo-rpc-client@5.0.2(undici@7.3.0):
     dependencies:
       '@ipld/dag-cbor': 9.2.2
       '@ipld/dag-json': 10.2.3
@@ -18427,7 +18374,7 @@ snapshots:
       merge-options: 3.0.4
       multiformats: 13.3.1
       nanoid: 5.0.9
-      native-fetch: 4.0.2(undici@7.2.3)
+      native-fetch: 4.0.2(undici@7.3.0)
       parse-duration: 1.1.1
       react-native-fetch-api: 3.0.0
       stream-to-it: 1.0.1
@@ -18926,9 +18873,9 @@ snapshots:
 
   nanoid@5.0.9: {}
 
-  native-fetch@4.0.2(undici@7.2.3):
+  native-fetch@4.0.2(undici@7.3.0):
     dependencies:
-      undici: 7.2.3
+      undici: 7.3.0
 
   natural-compare@1.4.0: {}
 
@@ -20513,7 +20460,7 @@ snapshots:
   socket.io-client@4.8.1(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
       '@socket.io/component-emitter': 3.1.2
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7
       engine.io-client: 6.6.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       socket.io-parser: 4.2.4
     transitivePeerDependencies:
@@ -20524,7 +20471,7 @@ snapshots:
   socket.io-parser@4.2.4:
     dependencies:
       '@socket.io/component-emitter': 3.1.2
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
 
@@ -21239,7 +21186,7 @@ snapshots:
 
   undici@6.21.1: {}
 
-  undici@7.2.3: {}
+  undici@7.3.0: {}
 
   universalify@0.1.2: {}
 
@@ -22297,8 +22244,6 @@ snapshots:
   yaml-ast-parser@0.0.43: {}
 
   yaml@1.10.2: {}
-
-  yaml@2.6.1: {}
 
   yaml@2.7.0: {}
 
