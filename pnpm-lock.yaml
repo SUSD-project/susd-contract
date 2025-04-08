@@ -34,16 +34,16 @@ importers:
         version: 3.1.8(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))
       '@nomiclabs/hardhat-truffle5':
         specifier: ^2.0.7
-        version: 2.0.7(@nomiclabs/hardhat-web3@2.0.1(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))(web3@1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)))(bufferutil@4.0.9)(encoding@0.1.13)(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))(utf-8-validate@5.0.10)(web3-core-helpers@1.10.4)(web3-core-promievent@1.10.4)(web3-eth-abi@4.4.1(typescript@5.8.2)(zod@3.24.2))(web3-utils@4.3.3)(web3@1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))
+        version: 2.0.7(@nomiclabs/hardhat-web3@2.0.1(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))(web3@1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(bufferutil@4.0.9)(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))(utf-8-validate@5.0.10)(web3-core-helpers@1.10.4)(web3-core-promievent@1.10.4)(web3-eth-abi@4.4.1(typescript@5.8.2)(zod@3.24.2))(web3-utils@4.3.3)(web3@1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@nomiclabs/hardhat-web3':
         specifier: ^2.0.0
-        version: 2.0.1(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))(web3@1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))
+        version: 2.0.1(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))(web3@1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@openzeppelin/contracts':
         specifier: ^5.0.0
         version: 5.2.0
       '@openzeppelin/test-helpers':
         specifier: ^0.5.16
-        version: 0.5.16(bn.js@5.2.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
+        version: 0.5.16(bn.js@5.2.1)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@typechain/ethers-v5':
         specifier: ^11.0.0
         version: 11.1.2(@ethersproject/abi@5.7.0)(@ethersproject/providers@5.7.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(ethers@6.13.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(typechain@8.3.2(typescript@5.8.2))(typescript@5.8.2)
@@ -330,8 +330,8 @@ importers:
         specifier: ^8.57.0
         version: 8.57.1
       eslint-config-next:
-        specifier: 14.2.26
-        version: 14.2.26(eslint@8.57.1)(typescript@5.8.2)
+        specifier: 14.2.28
+        version: 14.2.28(eslint@8.57.1)(typescript@5.8.2)
       react-cosmos:
         specifier: ^6.1.2-canary.71267f3.0
         version: 6.2.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -2167,8 +2167,8 @@ packages:
   '@next/env@15.2.4':
     resolution: {integrity: sha512-+SFtMgoiYP3WoSswuNmxJOCwi06TdWE733D+WPjpXIe4LXGULwEaofiiAy6kbS0+XjM5xF5n3lKuBwN2SnqD9g==}
 
-  '@next/eslint-plugin-next@14.2.26':
-    resolution: {integrity: sha512-SPEj1O5DAVTPaWD9XPupelfT2APNIgcDYD2OzEm328BEmHaglhmYNUvxhzfJYDr12AgAfW4V3UHSV93qaeELJA==}
+  '@next/eslint-plugin-next@14.2.28':
+    resolution: {integrity: sha512-GQUPA1bTZy5qZdPV5MOHB18465azzhg8xm5o2SqxMF+h1rWNjB43y6xmIPHG5OV2OiU3WxuINpusXom49DdaIQ==}
 
   '@next/swc-darwin-arm64@14.2.26':
     resolution: {integrity: sha512-zDJY8gsKEseGAxG+C2hTMT0w9Nk9N1Sk1qV7vXYz9MEiyRoF5ogQX2+vplyUMIfygnjn9/A04I6yrUTRTuRiyQ==}
@@ -5345,8 +5345,8 @@ packages:
     engines: {node: '>=6.0'}
     hasBin: true
 
-  eslint-config-next@14.2.26:
-    resolution: {integrity: sha512-KZNh1xvWG1ZDFD2f2WkvvnMpp7Sjsl6xJXCsvfEe8GH1FLXn6GtXo7lY9S8xDcn6oBWmKA0hSrlrp1DNQ9QDnQ==}
+  eslint-config-next@14.2.28:
+    resolution: {integrity: sha512-UxJMRQ4uaEdLp3mVQoIbRIlEF0S2rTlyZhI/2yEMVdAWmgFfPY4iJZ68jCbhLvXMnKeHMkmqTGjEhFH5Vm9h+A==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -12595,7 +12595,7 @@ snapshots:
 
   '@next/env@15.2.4': {}
 
-  '@next/eslint-plugin-next@14.2.26':
+  '@next/eslint-plugin-next@14.2.28':
     dependencies:
       glob: 10.3.10
 
@@ -12898,16 +12898,16 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@nomiclabs/hardhat-truffle5@2.0.7(@nomiclabs/hardhat-web3@2.0.1(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))(web3@1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)))(bufferutil@4.0.9)(encoding@0.1.13)(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))(utf-8-validate@5.0.10)(web3-core-helpers@1.10.4)(web3-core-promievent@1.10.4)(web3-eth-abi@4.4.1(typescript@5.8.2)(zod@3.24.2))(web3-utils@4.3.3)(web3@1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))':
+  '@nomiclabs/hardhat-truffle5@2.0.7(@nomiclabs/hardhat-web3@2.0.1(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))(web3@1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(bufferutil@4.0.9)(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))(utf-8-validate@5.0.10)(web3-core-helpers@1.10.4)(web3-core-promievent@1.10.4)(web3-eth-abi@4.4.1(typescript@5.8.2)(zod@3.24.2))(web3-utils@4.3.3)(web3@1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
-      '@nomiclabs/hardhat-web3': 2.0.1(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))(web3@1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))
-      '@nomiclabs/truffle-contract': 4.5.10(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)(web3-core-helpers@1.10.4)(web3-core-promievent@1.10.4)(web3-eth-abi@4.4.1(typescript@5.8.2)(zod@3.24.2))(web3-utils@4.3.3)(web3@1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))
+      '@nomiclabs/hardhat-web3': 2.0.1(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))(web3@1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@nomiclabs/truffle-contract': 4.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)(web3-core-helpers@1.10.4)(web3-core-promievent@1.10.4)(web3-eth-abi@4.4.1(typescript@5.8.2)(zod@3.24.2))(web3-utils@4.3.3)(web3@1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@types/chai': 4.3.20
       chai: 4.5.0
       ethereumjs-util: 7.1.5
       fs-extra: 7.0.1
       hardhat: 2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10)
-      web3: 1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
+      web3: 1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -12918,24 +12918,24 @@ snapshots:
       - web3-eth-abi
       - web3-utils
 
-  '@nomiclabs/hardhat-web3@2.0.1(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))(web3@1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))':
+  '@nomiclabs/hardhat-web3@2.0.1(hardhat@2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10))(web3@1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       hardhat: 2.22.19(bufferutil@4.0.9)(ts-node@10.9.2(@swc/core@1.11.13(@swc/helpers@0.5.15))(@types/node@22.13.14)(typescript@5.8.2))(typescript@5.8.2)(utf-8-validate@5.0.10)
-      web3: 1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
+      web3: 1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
 
-  '@nomiclabs/truffle-contract@4.5.10(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)(web3-core-helpers@1.10.4)(web3-core-promievent@1.10.4)(web3-eth-abi@4.4.1(typescript@5.8.2)(zod@3.24.2))(web3-utils@4.3.3)(web3@1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))':
+  '@nomiclabs/truffle-contract@4.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)(web3-core-helpers@1.10.4)(web3-core-promievent@1.10.4)(web3-eth-abi@4.4.1(typescript@5.8.2)(zod@3.24.2))(web3-utils@4.3.3)(web3@1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@ensdomains/ensjs': 2.1.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@truffle/blockchain-utils': 0.1.9
       '@truffle/contract-schema': 3.4.16
       '@truffle/debug-utils': 6.0.57
       '@truffle/error': 0.1.1
-      '@truffle/interface-adapter': 0.5.37(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
+      '@truffle/interface-adapter': 0.5.37(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       bignumber.js: 7.2.1
-      ethereum-ens: 0.8.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
+      ethereum-ens: 0.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       ethers: 4.0.49
       source-map-support: 0.5.21
-      web3: 1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
+      web3: 1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       web3-core-helpers: 1.10.4
       web3-core-promievent: 1.10.4
       web3-eth-abi: 4.4.1(typescript@5.8.2)(zod@3.24.2)
@@ -13003,17 +13003,17 @@ snapshots:
 
   '@openzeppelin/contracts@5.2.0': {}
 
-  '@openzeppelin/test-helpers@0.5.16(bn.js@5.2.1)(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)':
+  '@openzeppelin/test-helpers@0.5.16(bn.js@5.2.1)(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
       '@openzeppelin/contract-loader': 0.6.3
-      '@truffle/contract': 4.6.31(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
+      '@truffle/contract': 4.6.31(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       ansi-colors: 3.2.4
       chai: 4.5.0
       chai-bn: 0.2.2(bn.js@5.2.1)(chai@4.5.0)
       ethjs-abi: 0.2.1
       lodash.flatten: 4.4.0
       semver: 5.7.2
-      web3: 1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
+      web3: 1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       web3-utils: 1.10.4
     transitivePeerDependencies:
       - bn.js
@@ -14027,18 +14027,18 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@truffle/contract@4.6.31(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)':
+  '@truffle/contract@4.6.31(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
       '@ensdomains/ensjs': 2.1.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@truffle/blockchain-utils': 0.1.9
       '@truffle/contract-schema': 3.4.16
       '@truffle/debug-utils': 6.0.57
       '@truffle/error': 0.2.2
-      '@truffle/interface-adapter': 0.5.37(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
+      '@truffle/interface-adapter': 0.5.37(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       bignumber.js: 7.2.1
       debug: 4.4.0(supports-color@8.1.1)
       ethers: 4.0.49
-      web3: 1.10.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
+      web3: 1.10.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       web3-core-helpers: 1.10.0
       web3-core-promievent: 1.10.0
       web3-eth-abi: 1.10.0
@@ -14064,11 +14064,11 @@ snapshots:
 
   '@truffle/error@0.2.2': {}
 
-  '@truffle/interface-adapter@0.5.37(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)':
+  '@truffle/interface-adapter@0.5.37(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
       bn.js: 5.2.1
       ethers: 4.0.49
-      web3: 1.10.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
+      web3: 1.10.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -16726,9 +16726,9 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  eslint-config-next@14.2.26(eslint@8.57.1)(typescript@5.8.2):
+  eslint-config-next@14.2.28(eslint@8.57.1)(typescript@5.8.2):
     dependencies:
-      '@next/eslint-plugin-next': 14.2.26
+      '@next/eslint-plugin-next': 14.2.28
       '@rushstack/eslint-patch': 1.10.5
       '@typescript-eslint/eslint-plugin': 8.26.0(@typescript-eslint/parser@8.26.0(eslint@8.57.1)(typescript@5.8.2))(eslint@8.57.1)(typescript@5.8.2)
       '@typescript-eslint/parser': 8.26.0(eslint@8.57.1)(typescript@5.8.2)
@@ -17032,14 +17032,14 @@ snapshots:
       '@scure/bip32': 1.4.0
       '@scure/bip39': 1.3.0
 
-  ethereum-ens@0.8.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10):
+  ethereum-ens@0.8.0(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
       bluebird: 3.7.2
       eth-ens-namehash: 2.0.8
       js-sha3: 0.5.7
       pako: 1.0.11
       underscore: 1.13.7
-      web3: 1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
+      web3: 1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -21995,22 +21995,22 @@ snapshots:
     dependencies:
       eventemitter3: 4.0.4
 
-  web3-core-requestmanager@1.10.0(encoding@0.1.13):
+  web3-core-requestmanager@1.10.0:
     dependencies:
       util: 0.12.5
       web3-core-helpers: 1.10.0
-      web3-providers-http: 1.10.0(encoding@0.1.13)
+      web3-providers-http: 1.10.0
       web3-providers-ipc: 1.10.0
       web3-providers-ws: 1.10.0
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  web3-core-requestmanager@1.10.4(encoding@0.1.13):
+  web3-core-requestmanager@1.10.4:
     dependencies:
       util: 0.12.5
       web3-core-helpers: 1.10.4
-      web3-providers-http: 1.10.4(encoding@0.1.13)
+      web3-providers-http: 1.10.4
       web3-providers-ipc: 1.10.4
       web3-providers-ws: 1.10.4
     transitivePeerDependencies:
@@ -22027,27 +22027,27 @@ snapshots:
       eventemitter3: 4.0.4
       web3-core-helpers: 1.10.4
 
-  web3-core@1.10.0(encoding@0.1.13):
+  web3-core@1.10.0:
     dependencies:
       '@types/bn.js': 5.1.6
       '@types/node': 12.20.55
       bignumber.js: 9.1.2
       web3-core-helpers: 1.10.0
       web3-core-method: 1.10.0
-      web3-core-requestmanager: 1.10.0(encoding@0.1.13)
+      web3-core-requestmanager: 1.10.0
       web3-utils: 1.10.0
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  web3-core@1.10.4(encoding@0.1.13):
+  web3-core@1.10.4:
     dependencies:
       '@types/bn.js': 5.1.6
       '@types/node': 12.20.55
       bignumber.js: 9.1.2
       web3-core-helpers: 1.10.4
       web3-core-method: 1.10.4
-      web3-core-requestmanager: 1.10.4(encoding@0.1.13)
+      web3-core-requestmanager: 1.10.4
       web3-utils: 1.10.4
     transitivePeerDependencies:
       - encoding
@@ -22078,7 +22078,7 @@ snapshots:
       - typescript
       - zod
 
-  web3-eth-accounts@1.10.0(encoding@0.1.13):
+  web3-eth-accounts@1.10.0:
     dependencies:
       '@ethereumjs/common': 2.5.0
       '@ethereumjs/tx': 3.3.2
@@ -22086,7 +22086,7 @@ snapshots:
       ethereumjs-util: 7.1.5
       scrypt-js: 3.0.1
       uuid: 9.0.1
-      web3-core: 1.10.0(encoding@0.1.13)
+      web3-core: 1.10.0
       web3-core-helpers: 1.10.0
       web3-core-method: 1.10.0
       web3-utils: 1.10.0
@@ -22094,7 +22094,7 @@ snapshots:
       - encoding
       - supports-color
 
-  web3-eth-accounts@1.10.4(encoding@0.1.13):
+  web3-eth-accounts@1.10.4:
     dependencies:
       '@ethereumjs/common': 2.6.5
       '@ethereumjs/tx': 3.5.2
@@ -22102,7 +22102,7 @@ snapshots:
       eth-lib: 0.2.8
       scrypt-js: 3.0.1
       uuid: 9.0.1
-      web3-core: 1.10.4(encoding@0.1.13)
+      web3-core: 1.10.4
       web3-core-helpers: 1.10.4
       web3-core-method: 1.10.4
       web3-utils: 1.10.4
@@ -22110,10 +22110,10 @@ snapshots:
       - encoding
       - supports-color
 
-  web3-eth-contract@1.10.0(encoding@0.1.13):
+  web3-eth-contract@1.10.0:
     dependencies:
       '@types/bn.js': 5.1.6
-      web3-core: 1.10.0(encoding@0.1.13)
+      web3-core: 1.10.0
       web3-core-helpers: 1.10.0
       web3-core-method: 1.10.0
       web3-core-promievent: 1.10.0
@@ -22124,10 +22124,10 @@ snapshots:
       - encoding
       - supports-color
 
-  web3-eth-contract@1.10.4(encoding@0.1.13):
+  web3-eth-contract@1.10.4:
     dependencies:
       '@types/bn.js': 5.1.6
-      web3-core: 1.10.4(encoding@0.1.13)
+      web3-core: 1.10.4
       web3-core-helpers: 1.10.4
       web3-core-method: 1.10.4
       web3-core-promievent: 1.10.4
@@ -22138,29 +22138,29 @@ snapshots:
       - encoding
       - supports-color
 
-  web3-eth-ens@1.10.0(encoding@0.1.13):
+  web3-eth-ens@1.10.0:
     dependencies:
       content-hash: 2.5.2
       eth-ens-namehash: 2.0.8
-      web3-core: 1.10.0(encoding@0.1.13)
+      web3-core: 1.10.0
       web3-core-helpers: 1.10.0
       web3-core-promievent: 1.10.0
       web3-eth-abi: 1.10.0
-      web3-eth-contract: 1.10.0(encoding@0.1.13)
+      web3-eth-contract: 1.10.0
       web3-utils: 1.10.0
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  web3-eth-ens@1.10.4(encoding@0.1.13):
+  web3-eth-ens@1.10.4:
     dependencies:
       content-hash: 2.5.2
       eth-ens-namehash: 2.0.8
-      web3-core: 1.10.4(encoding@0.1.13)
+      web3-core: 1.10.4
       web3-core-helpers: 1.10.4
       web3-core-promievent: 1.10.4
       web3-eth-abi: 1.10.4
-      web3-eth-contract: 1.10.4(encoding@0.1.13)
+      web3-eth-contract: 1.10.4
       web3-utils: 1.10.4
     transitivePeerDependencies:
       - encoding
@@ -22176,85 +22176,85 @@ snapshots:
       bn.js: 5.2.1
       web3-utils: 1.10.4
 
-  web3-eth-personal@1.10.0(encoding@0.1.13):
+  web3-eth-personal@1.10.0:
     dependencies:
       '@types/node': 12.20.55
-      web3-core: 1.10.0(encoding@0.1.13)
+      web3-core: 1.10.0
       web3-core-helpers: 1.10.0
       web3-core-method: 1.10.0
-      web3-net: 1.10.0(encoding@0.1.13)
+      web3-net: 1.10.0
       web3-utils: 1.10.0
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  web3-eth-personal@1.10.4(encoding@0.1.13):
+  web3-eth-personal@1.10.4:
     dependencies:
       '@types/node': 12.20.55
-      web3-core: 1.10.4(encoding@0.1.13)
+      web3-core: 1.10.4
       web3-core-helpers: 1.10.4
       web3-core-method: 1.10.4
-      web3-net: 1.10.4(encoding@0.1.13)
+      web3-net: 1.10.4
       web3-utils: 1.10.4
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  web3-eth@1.10.0(encoding@0.1.13):
+  web3-eth@1.10.0:
     dependencies:
-      web3-core: 1.10.0(encoding@0.1.13)
+      web3-core: 1.10.0
       web3-core-helpers: 1.10.0
       web3-core-method: 1.10.0
       web3-core-subscriptions: 1.10.0
       web3-eth-abi: 1.10.0
-      web3-eth-accounts: 1.10.0(encoding@0.1.13)
-      web3-eth-contract: 1.10.0(encoding@0.1.13)
-      web3-eth-ens: 1.10.0(encoding@0.1.13)
+      web3-eth-accounts: 1.10.0
+      web3-eth-contract: 1.10.0
+      web3-eth-ens: 1.10.0
       web3-eth-iban: 1.10.0
-      web3-eth-personal: 1.10.0(encoding@0.1.13)
-      web3-net: 1.10.0(encoding@0.1.13)
+      web3-eth-personal: 1.10.0
+      web3-net: 1.10.0
       web3-utils: 1.10.0
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  web3-eth@1.10.4(encoding@0.1.13):
+  web3-eth@1.10.4:
     dependencies:
-      web3-core: 1.10.4(encoding@0.1.13)
+      web3-core: 1.10.4
       web3-core-helpers: 1.10.4
       web3-core-method: 1.10.4
       web3-core-subscriptions: 1.10.4
       web3-eth-abi: 1.10.4
-      web3-eth-accounts: 1.10.4(encoding@0.1.13)
-      web3-eth-contract: 1.10.4(encoding@0.1.13)
-      web3-eth-ens: 1.10.4(encoding@0.1.13)
+      web3-eth-accounts: 1.10.4
+      web3-eth-contract: 1.10.4
+      web3-eth-ens: 1.10.4
       web3-eth-iban: 1.10.4
-      web3-eth-personal: 1.10.4(encoding@0.1.13)
-      web3-net: 1.10.4(encoding@0.1.13)
+      web3-eth-personal: 1.10.4
+      web3-net: 1.10.4
       web3-utils: 1.10.4
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  web3-net@1.10.0(encoding@0.1.13):
+  web3-net@1.10.0:
     dependencies:
-      web3-core: 1.10.0(encoding@0.1.13)
+      web3-core: 1.10.0
       web3-core-method: 1.10.0
       web3-utils: 1.10.0
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  web3-net@1.10.4(encoding@0.1.13):
+  web3-net@1.10.4:
     dependencies:
-      web3-core: 1.10.4(encoding@0.1.13)
+      web3-core: 1.10.4
       web3-core-method: 1.10.4
       web3-utils: 1.10.4
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  web3-providers-http@1.10.0(encoding@0.1.13):
+  web3-providers-http@1.10.0:
     dependencies:
       abortcontroller-polyfill: 1.7.8
       cross-fetch: 3.2.0(encoding@0.1.13)
@@ -22263,7 +22263,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  web3-providers-http@1.10.4(encoding@0.1.13):
+  web3-providers-http@1.10.4:
     dependencies:
       abortcontroller-polyfill: 1.7.8
       cross-fetch: 4.1.0(encoding@0.1.13)
@@ -22298,22 +22298,22 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  web3-shh@1.10.0(encoding@0.1.13):
+  web3-shh@1.10.0:
     dependencies:
-      web3-core: 1.10.0(encoding@0.1.13)
+      web3-core: 1.10.0
       web3-core-method: 1.10.0
       web3-core-subscriptions: 1.10.0
-      web3-net: 1.10.0(encoding@0.1.13)
+      web3-net: 1.10.0
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  web3-shh@1.10.4(encoding@0.1.13):
+  web3-shh@1.10.4:
     dependencies:
-      web3-core: 1.10.4(encoding@0.1.13)
+      web3-core: 1.10.4
       web3-core-method: 1.10.4
       web3-core-subscriptions: 1.10.4
-      web3-net: 1.10.4(encoding@0.1.13)
+      web3-net: 1.10.4
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -22357,14 +22357,14 @@ snapshots:
       web3-types: 1.10.0
       zod: 3.24.2
 
-  web3@1.10.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10):
+  web3@1.10.0(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
       web3-bzz: 1.10.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      web3-core: 1.10.0(encoding@0.1.13)
-      web3-eth: 1.10.0(encoding@0.1.13)
-      web3-eth-personal: 1.10.0(encoding@0.1.13)
-      web3-net: 1.10.0(encoding@0.1.13)
-      web3-shh: 1.10.0(encoding@0.1.13)
+      web3-core: 1.10.0
+      web3-eth: 1.10.0
+      web3-eth-personal: 1.10.0
+      web3-net: 1.10.0
+      web3-shh: 1.10.0
       web3-utils: 1.10.0
     transitivePeerDependencies:
       - bufferutil
@@ -22372,14 +22372,14 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  web3@1.10.4(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10):
+  web3@1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     dependencies:
       web3-bzz: 1.10.4(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      web3-core: 1.10.4(encoding@0.1.13)
-      web3-eth: 1.10.4(encoding@0.1.13)
-      web3-eth-personal: 1.10.4(encoding@0.1.13)
-      web3-net: 1.10.4(encoding@0.1.13)
-      web3-shh: 1.10.4(encoding@0.1.13)
+      web3-core: 1.10.4
+      web3-eth: 1.10.4
+      web3-eth-personal: 1.10.4
+      web3-net: 1.10.4
+      web3-shh: 1.10.4
       web3-utils: 1.10.4
     transitivePeerDependencies:
       - bufferutil
