@@ -14260,7 +14260,7 @@ snapshots:
       big.js: 6.2.2
       bn.js: 5.2.1
       cbor: 5.2.0
-      debug: 4.4.0(supports-color@8.1.1)
+      debug: 4.4.1
       lodash: 4.17.21
       semver: 7.7.1
       utf8: 3.0.0
@@ -14276,7 +14276,7 @@ snapshots:
   '@truffle/contract-schema@3.4.16':
     dependencies:
       ajv: 6.12.6
-      debug: 4.4.0(supports-color@8.1.1)
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -14308,7 +14308,7 @@ snapshots:
       '@trufflesuite/chromafi': 3.0.0
       bn.js: 5.2.1
       chalk: 2.4.2
-      debug: 4.4.0(supports-color@8.1.1)
+      debug: 4.4.1
       highlightjs-solidity: 2.0.6
     transitivePeerDependencies:
       - supports-color
@@ -14572,7 +14572,7 @@ snapshots:
       '@typescript-eslint/types': 8.26.0
       '@typescript-eslint/typescript-estree': 8.26.0(typescript@5.8.2)
       '@typescript-eslint/visitor-keys': 8.26.0
-      debug: 4.4.0(supports-color@8.1.1)
+      debug: 4.4.1
       eslint: 8.57.1
       typescript: 5.8.2
     transitivePeerDependencies:
@@ -14600,7 +14600,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.26.0
       '@typescript-eslint/visitor-keys': 8.26.0
-      debug: 4.4.0(supports-color@8.1.1)
+      debug: 4.4.1
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
@@ -17025,7 +17025,7 @@ snapshots:
   eslint-import-resolver-typescript@3.8.3(eslint-plugin-import@2.31.0)(eslint@8.57.1):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
-      debug: 4.4.0(supports-color@8.1.1)
+      debug: 4.4.1
       enhanced-resolve: 5.18.1
       eslint: 8.57.1
       get-tsconfig: 4.10.0
