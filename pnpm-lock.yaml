@@ -14260,7 +14260,7 @@ snapshots:
       big.js: 6.2.2
       bn.js: 5.2.1
       cbor: 5.2.0
-      debug: 4.4.1
+      debug: 4.4.0(supports-color@8.1.1)
       lodash: 4.17.21
       semver: 7.7.1
       utf8: 3.0.0
@@ -14276,7 +14276,7 @@ snapshots:
   '@truffle/contract-schema@3.4.16':
     dependencies:
       ajv: 6.12.6
-      debug: 4.4.1
+      debug: 4.4.0(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -14308,7 +14308,7 @@ snapshots:
       '@trufflesuite/chromafi': 3.0.0
       bn.js: 5.2.1
       chalk: 2.4.2
-      debug: 4.4.1
+      debug: 4.4.0(supports-color@8.1.1)
       highlightjs-solidity: 2.0.6
     transitivePeerDependencies:
       - supports-color
